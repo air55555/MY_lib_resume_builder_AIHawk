@@ -61,7 +61,7 @@ Here’s a detailed documentation for each module in the `lib_resume_builder_AIH
 
 How to use :
 example usage func from real app, is  overloaded by other functionality.
-
+```
 from lib_resume_builder_AIHawk import Resume,StyleManager,FacadeManager,ResumeGenerator
 
 def create_and_run_bot(email: str, password: str, parameters: dict, openai_api_key: str):
@@ -93,6 +93,7 @@ def create_and_run_bot(email: str, password: str, parameters: dict, openai_api_k
         print(f"WebDriver error occurred: {e}")
     except Exception as e:
         raise RuntimeError(f"Error running the bot: {str(e)}")
+```
 
 
 
